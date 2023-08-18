@@ -1,0 +1,99 @@
+body{
+    /* background:linear-gradient(90deg,blue,pink,yellow,red); */
+}
+header{
+    margin-bottom: 5rem;
+    top: 0;
+    z-index: 100;
+    position: sticky;
+    background-color: rgb(255, 248, 248);
+    /* background-color: rgb(194, 24, 24); */
+    height: 7.5rem;
+    border: 2px solid gold;
+    padding-top: .5rem;
+    box-shadow: 5px 5px 20px 0px blue;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+header ul li{
+    background-color: rgb(255, 252, 246);
+    padding: .3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 20px;
+}
+.video_icons{
+    float: right;
+    margin-top: -3rem;
+    margin-bottom: 2rem;
+    display: flex;
+}
+header h1{
+    margin-left: 1rem;
+}
+.video_icons i{
+  margin-right: 2rem;
+  background-color: rgb(170, 185, 185);
+ padding: .4rem;
+ border-radius: 50%;
+ 
+}
+.profile_public{
+    background-color: rgb(212, 197, 197);
+    margin-top: -35px;
+    height: 200px;
+}
+
+.post{
+   background-color: rgb(255, 249, 249);
+    margin-top: 30px;
+    border-radius: 5px;
+    
+}
+.post video{
+    border-radius: 20px;
+}
+ .img{
+    border-radius: 50%;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
+.post .par{
+    margin-left: 105px;
+    margin-top: -45px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.post  span{
+    margin-left: 105px;
+    font-size: 12px;
+    letter-spacing: 1px;
+
+}
+.sub{
+    margin-left: 20px;
+    margin-top: 1rem;
+}
+
+.like_icon{
+    margin-left: rem;
+     margin-top: 1rem;
+    margin-bottom: .6rem;
+    padding-top: .5rem;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px 0px blue;
+    
+}
+.like_icon i{
+    margin-right: 15rem;
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+    
+
+}

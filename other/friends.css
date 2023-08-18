@@ -1,0 +1,111 @@
+header{
+    position: sticky;
+    top:  0;
+    z-index: 100;
+    height: 5rem;
+    background-color: white;
+    border-bottom: 2px solid black;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -1.5rem;
+    margin-right: 25rem;
+}
+header ul li{
+    background-color: rgb(219, 217, 213);
+    padding: .3rem;
+    padding-right: 1rem;
+    border-radius: 20px;
+
+}
+.friens_icons{
+    float: right;
+    margin-top: -3rem;
+    display: flex;
+}
+header h1{
+    margin-left: 1rem;
+}
+.friens_icons i{
+  margin-right: 2rem;
+  background-color: rgb(170, 185, 185);
+ padding: .4rem;
+ border-radius: 50%;
+ 
+}
+/* frd div */
+.div_request{
+    margin-top: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+.div_request  a{
+    float: right;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 1rem;
+    color: rgb(9, 172, 172);
+}
+.div_request span{
+   margin-left: .5rem;
+   color: red;
+   font-weight: bold;
+}
+.profile_div{
+    display: flex;
+}
+.profile_div img{
+    border-radius: 50%;
+    height: 5rem;
+    margin-top: 1rem;
+    margin-left: 4rem;
+}
+.profile_div .name{
+    margin-top: 2.2rem;
+    margin-left: 1rem; 
+}
+.Confirm{
+    /* margin-left: 5.5rem;
+    margin-top: -4rem; */
+    margin-top: 5rem;
+    margin-left: -6.5rem;
+    margin-right: 3rem;
+    width: 12%;
+    color: white;
+    padding: .5rem;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(19, 19, 184);
+}
+.Confirm:hover{
+    margin-top: 5rem;
+    width: 12%;
+    color: black;
+    padding: .5rem;
+    border-radius: 6px;
+    border: none;
+    background-color: green;
+}
+.Delete{
+    /* margin-left: 5.5rem;
+    margin-top: -4rem; */
+    margin-top: 5rem;
+    width: 12%;
+    color: black;
+    padding: .5rem;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(197, 197, 204);
+}
+.Delete:hover{
+    margin-top: 5rem;
+    width: 12%;
+    color: black;
+    padding: .5rem;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(243, 47, 33);
+}
